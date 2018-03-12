@@ -1,0 +1,429 @@
+
+body {
+	text-align: center;
+	margin: 0px;
+}
+
+body {
+  font-family: Exo;
+  font-weight: 100;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+label a {
+	color: #000;
+	font-weight: bold;
+}
+
+input:focus {
+  box-shadow: 0 2px 4px 0 #f8e71c;
+  border: 1px solid #ccc;
+  outline-width: 0px;
+}
+
+input {
+  border-radius: 3px;
+  background-color: #ffffff;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.menu {
+	margin-top: 40px;
+}
+
+.menu .step.active {
+	border-bottom: 2px solid yellow;
+	color: #1b2125;
+}
+
+.menu .step.active b {
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+	display: inline-block;
+	background: #f8e71c;
+	border-radius: 20px;
+}
+
+.menu .step b {
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+	display: inline-block;
+	border-radius: 12px;
+}
+
+.menu .step {
+  vertical-align: top;
+  width: 49%;
+  height: 19px;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #d4d9dd;
+  display: inline-block;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #e4eaee;
+}
+
+.step-content > * {
+	margin-top: 40px;
+}
+
+.step-content .left-side .panel-content {
+	padding: 0px 20px 0px 0px;
+}
+
+.step-content .right-side .panel-content {
+	padding: 0px 0px 0px 20px;
+}
+
+.step-content .left-side {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+
+.fourty {
+	width: 40%;
+}
+
+.sixty {
+	width: 59%;
+}
+
+.step-content .right-side {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	text-align: left;
+}
+
+.thirdStep {
+	text-align: left;
+}
+
+.form-fields {
+	margin-top: 20px;
+}
+
+.eighty3 {
+	display: inline-block;
+	width: 83.33%;
+	text-align: left;
+}
+
+.ta-right {
+	text-align: right !important;
+}
+
+.fifty {
+	display: inline-block;
+	width: 49%;
+}
+
+.form-fields label:not(.checkbox) {
+	display: block;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.form-fields input[type=text] {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+/**
+ * Calendar
+ */
+.calendar table tbody td.clickable .stripe.first {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.calendar table tbody td.clickable .stripe.last {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.calendar table tbody td.clickable a.current {
+	background-color: #f8e71c;
+	font-weight: bold;
+}
+
+.calendar table tbody td.clickable .stripe {
+	background: #f2f2f2;
+	display: block;
+	line-height: 38px;
+}
+
+.calendar table tbody td.clickable .stripe a {
+	color: #6b6d6f;
+	text-decoration: none;
+	line-height: 28px;
+	height: 28px;
+	width: 100%;
+	display: inline-block;
+	border-radius: 38px;
+}
+
+.calendar table tbody td {
+	text-align: center;
+	color: #6b6d6f;
+	font-size: 14px;
+	height:50px;	
+	padding: 0px;
+}
+
+.calendar table thead tr th {
+	border-bottom: 1px solid #dbdcdd;
+	text-transform: uppercase;
+	color: #8c8f93;
+	font-size: 12px;
+	height: 32px;
+}
+
+.calendar table {
+	width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+	table-layout: fixed;
+}
+
+.calendar .calendar-content h3 {
+	position: relative;
+}
+
+.calendar .calendar-content h3 .back i {
+	border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    padding: 3px;
+	font-size: 30px;
+}
+
+.calendar .calendar-content h3 .back {
+	position: absolute;
+	left: 0px;
+	padding: 10px;
+}
+
+.calendar .calendar-content h3 .front i {
+
+}
+
+.calendar .calendar-content h3 .front {
+	border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    padding: 3px;
+	font-size: 30px;
+	position: absolute;
+	right: 0px;
+	top: 8px;
+}
+
+.calendar .calendar-content h3 {
+	text-align: center;
+}
+
+.calendar .calendar-content {
+	padding: 30px;
+}
+
+.calendar {
+	margin-top: 20px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3);
+	display: inline-block;
+	width: 100%;
+}
+
+.booking-widget {
+	max-width: 1024px;
+	display: inline-block;
+	margin: auto;
+	padding: 20px;
+}
+
+/**
+ * Available list
+ */
+.available-list {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 90px;
+}
+.available-list li {
+	list-style: none;
+	display: inline-block;
+	height: 80px;
+	width: 49%;
+}
+
+.available-list li a {
+  border-radius: 5px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+}
+
+.available-list li.active a {
+  background-color: #f8e71c;
+  font-weight: bold;
+}
+
+.next-button a.disabled {
+   background-color: #CCC;
+}
+
+.next-button a {
+   width: 250px;
+   display: inline-block;
+   text-align: center;
+   border-radius: 3px;
+   background-color: #f8e71c;
+   box-shadow: 0 2px 7px 0 rgba(120, 137, 149, 0.26);
+   font-weight: bold;
+   text-decoration: none;
+   text-transform: uppercase;
+   padding: 10px 0px;
+}
+
+.next-button a:after {
+	content: "\203A";
+	position: absolute;
+	right: 10px;
+	line-height: 40px;
+	font-size: 30px;
+	top: 0px;
+}
+
+.next-button {
+	margin-top: 10px;
+	display: block;
+ 	text-align: right;
+	position: relative;
+}
+
+.secondStep {
+	display: none;
+}
+
+.social svg {
+	border: 1px solid #ccc;
+	width: 16px !important;
+	height: 16px;
+	border-radius: 32px;
+	padding: 13px;
+}
+
+.footer {
+	margin-top: 50px;
+}
+
+.backToStep1 {
+	color: #999;
+}
+
+.toStep2 {
+	position: fixed;
+	bottom: 0px;
+	height: 120px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+}
+
+.pseudo-full-width {
+	background-color: white;
+	width: 51%;
+	height: 120px;
+	display: inline-block;
+}
+
+.pseudo-full-width-container a {
+	width: 49%;
+	margin-right: 6px;
+}
+
+.pseudo-full-width-container {
+	padding: 40px 0px 20px 20px;
+}
+
+.pseudo-width a {
+	position: relative;
+}
+.pseudo-width {
+	width: 100%;
+	max-width: 1024px;
+	position: relative;
+	display: inline-block;
+	text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+	
+	.booking-widget {
+		padding: 0px;
+	}
+	
+	.menu .step b {
+		display: none !important;
+	}
+
+	.fourty {
+		width: 100%;
+	}
+	
+	.sixty {
+		width: 100%;
+	}
+	
+	.panel-content {
+		padding: 0px !important;
+	}
+	
+	.right-side .panel-content { 
+		padding: 20px !important;
+	}
+	
+	.available-list li { 
+		width: 100%;
+	}
+	
+	.next-button a {
+		width: 100%;
+	}
+	
+	.privacy-content {
+		display: none;
+	}
+	
+	.secondStep .panel-content {
+		padding: 20px !important;
+	}
+	
+	.form-fields .fifty {
+		width: 100%;
+	}
+	
+}
